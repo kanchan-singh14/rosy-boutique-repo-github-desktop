@@ -1,0 +1,779 @@
+body{
+    background-color: rgb(238, 223, 234);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.announcement{
+    background-color: rgb(203, 166, 197);
+    text-align:center;
+    padding:8px;
+    font-family: cursive;
+    
+    
+    
+    
+}
+
+
+.logo{
+    background-color: white;
+    text-align: center;
+    padding:30px;
+    font-size: 30px;
+    color:rgb(205, 135, 167);
+    display:flex;
+    justify-content: space-between;    
+    align-items: center;
+
+
+
+    
+    
+}
+
+
+.b1{
+    text-align: center;
+    flex:1;
+    text-shadow: 2px 2px 6px rgba(216,167,177,0.5);
+}
+
+.search-bar{
+    flex:1;
+    text-align: left;
+    text-shadow:2px 2px 6px rgba(216,167,177,0.5);
+}
+
+.social-icons{
+    flex:1;
+    text-align: right;
+    text-shadow:2px 2px 6px rgba(216,167,177,0.5);
+    
+    
+}
+
+.search-bar a,
+.social-icons a{
+    color: #c86fa1;
+    text-decoration: none;
+    transition:0.3s;
+}
+
+.search-bar a:hover,
+.social-icons a:hover{
+    color:hotpink;
+    transform:scale(1.5);
+}
+
+
+
+
+   
+
+header div p{
+    font-size:30px;
+    color:rgb(115, 115, 205);
+    font-weight: bold;
+    
+}
+
+nav ul {
+
+    display: flex;
+    list-style: none;
+    gap:40px;
+    background-color: rgb(179, 158, 199);
+    padding: 10px;
+    text-align:center;
+    justify-content: center;
+    
+    
+}
+
+nav ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: rgb(181, 108, 138);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:3px;
+}
+
+
+.hero{
+    height:60vh;
+    background-color:lavander;
+    background: linear-gradient(to right, rgb(195, 195, 219), rgb(228, 209, 227),rgb(213, 183, 209));
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.right img{
+    /*height:280px;
+    width:280px;*/
+    margin-top: 15px;
+    object-fit: cover;
+    width:280px;
+    max-width: 100%;
+    height: auto;
+    max-height: 280px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255,192,203,0.5);
+    animation:float 4s ease-in-out infinite;
+    
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-12px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+
+
+
+}
+.left h2{
+    color:#8d6a8e;
+    font-family: "Great Vibes", cursive;
+    font-size:90px;
+    font-weight: 500;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:-40px;
+
+}
+.left h1{
+    font-family: "playfair Display" , serif;
+    font-size: 90px;
+    font-weight:700;
+    color:#9a7498;
+    text-align: center;
+    margin-top:0;
+}
+.left p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: 6px;
+    color:#7a6a7a;
+}
+
+.btn:hover{
+    background-color:#8f7ab3;
+    
+    
+
+}
+
+.btn{
+    background-color: #7757af;
+    display: block;
+    margin:20px auto;
+    padding:10px;
+    font-weight: bold;
+    letter-spacing:5px;
+    border:1px solid lavender;
+    
+}
+.btn a{
+    color:white;
+    text-decoration: none;
+    font-family:"Playfair Display";
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height:60vh;
+    gap:35px;
+    padding:55px;
+    
+    
+}
+.a1{
+
+    background-color: #E8C8E6;
+    border: 2px solid rgb(234, 187, 208);
+    padding:20px;
+    width: 300px;
+    height:220px;
+    text-align: center;
+    box-shadow:5px 5px 15px rgba(115, 81, 87, 0.5);
+    animation: zoom 4s linear infinite 0s;
+   
+
+}
+
+.a1 h2{
+    font-family: "Great Vibes";
+    color:rgb(59, 20, 80);
+    font-size: 65px;
+    font-weight: lighter;
+    
+    margin-top:30px;
+    margin-bottom:-30px;
+
+}
+
+.a1 h1{
+    font-family: "Playfair Display";
+    font-size:45px;
+    color:white;
+    margin-top:0;
+    
+}
+
+.a2{
+
+    background-color: #DDA9DB;
+    border:2px solid rgb(235, 193, 212); 
+    padding:20px;
+    width: 300px;
+    height:220px;
+    text-align: center;
+    box-shadow:5px 5px 15px rgba(83, 70, 104, 0.5);
+    animation: zoom 4s  linear infinite 1s;
+
+}
+
+.a2 h1{
+
+    font-family: "Great vibes";
+    font-size:65px;
+    color:white;
+    margin-top:0;
+
+}
+
+.a3{
+    
+    background-color:#af88d5;
+    border: 2px solid rgb(169, 169, 222);
+    padding:20px;
+    width: 300px;
+    height:220px;
+    text-align: center;
+    box-shadow:5px 5px 15px rgba(115, 81, 87, 0.5);
+    animation: zoom 4s linear infinite 2s;
+   
+
+}
+
+.a3 h2{
+    font-family: "Great Vibes";
+    color:rgb(59, 20, 80);
+    font-size: 65px;
+    font-weight: lighter;
+    
+    margin-top:30px;
+    margin-bottom:-30px;
+
+}
+
+.a3 h1{
+    font-family: "Playfair Display";
+    font-size:45px;
+    color:white;
+    margin-top:0;
+    
+}
+
+.a4{
+
+    background-color:#9d87c1;
+    border:2px solid rgb(169, 169, 222); 
+    padding:20px;
+    width: 300px;
+    height:220px;
+    text-align: center;
+    box-shadow:5px 5px 15px rgba(83, 70, 104, 0.5);
+    animation: zoom 4s linear infinite 3s;
+
+}
+
+.a4 h1{
+
+    font-family: "Great vibes";
+    font-size:65px;
+    color:white;
+    margin-top:0;
+
+}
+
+@keyframes zoom{
+    0%, 100%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.08);
+    }
+}
+
+
+
+.tag{
+    height:25vh;
+    color:rgb(69, 33, 89);
+    font-family:"Great Vibes";
+    font-size: 35px;
+    text-align: center;
+    padding:30px;
+    background-color:rgb(234, 189, 217);
+    
+
+}
+
+.tag h1 a{
+    text-decoration: none;
+
+}
+
+.tag h1 a:hover{
+    color:#a02b71;
+}
+
+/*.cards{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    height:auto;
+    gap:35px;
+    margin:0;
+    padding:50px;
+    
+}*/
+
+.product-section{
+    background:white;
+    padding:50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.view-all{
+    text-align: center;
+    margin:30px;
+}
+
+.view-btn{
+    display: inline-block;
+    background-color: #c894d9;
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.view-btn:hover{
+    background-color: #853873;
+}
+
+.card1 img{
+
+    border:1px solid rgb(229, 208, 218);
+    height:300px;
+    width: 220px;
+
+   
+
+}
+
+.card2 img{
+
+    border:1px solid rgb(235, 193, 212);
+    height:300px;
+    width: 220px;
+
+   
+
+}
+
+.card3 img{
+
+    border:1px solid rgb(235, 193, 212);
+    height:300px;
+    width: 220px;
+
+   
+
+}
+
+.card4 img{
+
+    border:1px solid rgb(235, 193, 212);
+    height:300px;
+    width: 220px;
+
+   
+
+}
+a{
+    text-decoration: none;
+}
+
+
+.product{
+    text-align:center;
+    font-weight: 600;
+    color:#2f1856;
+}
+
+
+.contact{
+    height:60vh;
+    text-align: center;
+    margin:50px;
+}
+
+.contact h1{
+    font-family: "Great Vibes";
+    font-size: 100px;
+    letter-spacing: 8px;
+    color:rgb(69, 33, 89);
+}
+.contact i{
+    color:rgb(223, 146, 202);
+    padding:10px;
+   
+}
+
+.contact h3{
+    font-family: "Playfair Display";
+    font-size:55px;
+    color:rgb(224, 125, 125);
+    gap:15px;
+}
+
+.contact p{
+    font-family: "Playfair Display";
+    font-size:18px;
+    color:rgb(26, 9, 105);
+    padding: 15px;
+
+} 
+
+input[type="email"] {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:20px;
+    
+    
+} 
+input::placeholder {
+    color:#635363;
+}
+
+.btn1{
+    width: 3%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:20px;
+}
+
+
+
+#about{
+    height:70vh;
+    
+   
+} 
+#about h1{
+    font-family: "playfair display";
+    font-size:60px;
+    text-align: center;
+    padding:30px;
+    color: #110853;
+
+} 
+
+#about p{
+    font-size: 20px;
+    font-family:"playfair display";
+    color:rgb(61, 7, 61);
+    word-spacing: 4px;
+    text-align: center;
+}
+
+#blog{
+    background-color: white;
+    height:90vh;
+    
+}
+#blog h1{
+    font-family: "great vibes";
+    font-size:60px;
+    text-align: center;
+    letter-spacing: 7px;
+    padding:30px;
+    color: #5b1010;
+    text-shadow: #360e2c;
+
+}
+
+#blog p{
+    font-size: 20px;
+    font-family:"playfair display";
+    color:rgb(61, 7, 61);
+    word-spacing: 4px;
+    text-align: center;
+}
+
+.new-launch ul {
+    display: flex;
+    list-style: none;
+    gap:40px;
+    background-color: rgb(179, 158, 199);
+    padding: 10px;
+    text-align:center;
+    justify-content: center;
+    
+    
+}
+
+.new-launch ul li a {
+    color:white;
+    text-decoration: none;
+}
+
+.new-launch ul li a:hover{
+    background-color: rgb(181, 108, 138);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:3px;
+}
+
+/*.new1{
+
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:20px;
+}*/
+
+.c1{
+    width:250px;
+    
+
+}
+
+.c1 img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.c1 h3{
+    margin-top: 10px;
+
+
+}
+
+.c1 p{
+    margin-top: 5px;
+}
+/*.loved{
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:20px;
+}*/
+
+.c2{
+    width:250px;
+    
+
+}
+
+.c2 img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.c2 h3{
+    margin-top: 10px;
+
+
+}
+
+.c2 p{
+    margin-top: 5px;
+}
+
+/*.sale{
+
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:20px;
+}*/
+
+.c3{
+    width:250px;
+    
+
+}
+
+.c3 img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.c3 h3{
+    margin-top: 10px;
+
+
+}
+
+
+.c3 p{
+    margin-top: 5px;
+}
+
+/*.gift{
+    display:flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap:20px;
+}*/
+
+.c4{
+    width:250px;
+    
+
+}
+
+.c4 img{
+    width:100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.c4 h3{
+    margin-top: 10px;
+
+
+}
+
+.c4 p{
+    margin-top: 5px;
+}
+.new1,
+.loved,
+.sale,
+.gift{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+@media (max-width:768px){
+nav ul{
+flex-direction:column;
+gap:10px;
+}
+}
+@media (max-width:768px){
+
+.hero{
+flex-direction:column;
+height:auto;
+padding:30px;
+text-align:center;
+}
+
+
+.new{
+flex-wrap:wrap;
+height:auto;
+}
+
+.a1,
+.a2,
+.a3,
+.a4{
+width:280px;
+}
+
+.cards{
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img{
+
+max-width:100%;
+height:auto;
+
+}
+#about{
+
+height:auto;
+padding:30px;
+
+}
+#blog{
+
+height:auto;
+padding:30px;
+
+}
+.contact{
+
+height:auto;
+padding:30px;
+
+}
+input[type=email]{
+
+width:90%;
+
+}
+
+.btn1{
+
+width:60px;
+
+}
+
+.new1,
+.loved,
+.sale,
+.gift{
+
+flex-wrap:wrap;
+
+}
+}
+
+
+
